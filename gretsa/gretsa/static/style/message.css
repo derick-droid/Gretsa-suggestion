@@ -1,0 +1,174 @@
+main {
+    margin-top: 50px;
+    display: flex;
+    
+}
+.right-sidebar{
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+    width: 350px;
+    border-radius: 5px;
+   
+}
+.compose {
+    background-color:rgb(243, 40, 40);
+    color: white;
+    height: 50px;
+    width: 200px;
+    padding-left: 150px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    align-items: center;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    
+    
+}
+
+.compose-message {
+    margin-right: 10px;
+}
+.msg-compose {
+    height: 20px;
+      
+}
+a:link {
+    text-decoration: none;
+}
+.body-msg {
+    color: gray;
+    font-size: 18px;
+    font-weight: 20px;
+}
+
+/* inbox messages */
+
+.inbox {
+   color: black;
+    height: 20px;
+    width: 200px;
+    padding-left: 150px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    align-items: center;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+
+}
+.inbox:hover {
+    background-color:rgb(12, 178, 233);
+}
+.inbox:active {
+    background-color:rgb(12, 178, 233);
+}
+.inbox-message {
+    margin-right: 10px;
+
+}
+.circle-notification {
+    margin-left: 80px;
+    background-color: brown;
+    height: 20px;
+    width: 20px;
+    border-radius: 15px;
+    display: flex;
+    padding-left: 15px;
+    padding-top: 5px;
+
+
+}
+.sent {
+    color:black;
+    height: 20px;
+    width: 200px;
+    padding-left: 150px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    align-items: center;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+.sent-message {
+    margin-right: 10px;
+}
+.sent:hover {
+    background-color:rgb(12, 178, 233);
+    ;
+}
+
+/* leftside  */
+.leftsidebar {
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+    margin-left: 30px;
+    border-radius: 10px;
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+
+
+}
+.delete-img {
+    height: 30px;
+    cursor: pointer;
+}
+/* button {
+    margin-top: 20px;
+    margin-left: 20px;
+    
+} */
+
+.right {
+    margin-left: 0px;
+    margin-top: 0px;
+    align-items: center;
+}
+
+/* text message */
+.suggestion {
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.headline-paragraph {
+    color: gray;
+    font-size: 20px;
+    font-weight: 500;
+}
+.previous {
+    background-color: purple;
+    width: 60px;
+    color: white;
+    border-radius: 5px;
+}
+
+.profile-msg {
+    margin-left: 10px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+}
+.profile-message {
+    margin-left: 20px;
+    margin-top: 2px;
+}
+.me-msg {
+    line-height: 30px;
+}
+.main {
+    line-height: 30px;
+    width: 650px;
+}
+.symbols {
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color:white;
+
+}
+.symbols:hover {
+    background-color: gray;
+}

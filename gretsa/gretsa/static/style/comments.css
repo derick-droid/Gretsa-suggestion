@@ -1,0 +1,167 @@
+.suggestion-section {
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+    height: 600px;
+    width: 1000px;
+    margin-top: 30px;
+    margin-left: 130px;
+    border-radius: 20px;
+   
+
+}
+.top {
+    color:white;
+    background-color: blue;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 10px;
+}
+.department {
+    color:green;
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+.hosting {
+    color: rgb(48, 46, 46);
+    margin-left: 20px;
+}
+.show-up-comments {
+    background-color: rgb(77, 74, 74);
+    padding: 20px;
+    height: 330px;
+    width: 900px;
+    margin-left: 50px;
+    border-radius: 20px;
+    position: relative;
+   
+    
+
+}
+.conversation-box {
+    display: flex;
+}
+.proc {
+    height: 50px;
+}
+.side-name {
+    color: rgb(202, 199, 199);
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.time {
+    color: rgb(202, 199, 199);
+    margin-top: 20px;
+    margin-left: 50px;
+
+
+}
+/* the message */
+.msg-type {
+    color: rgb(202, 199, 199);
+    margin-top: 10px;
+    margin-left: 5px;
+    line-height: 30px;
+    width: 500px;
+    
+}
+.conversation-box-one {
+    display: flex;
+    margin-top: 30px;
+    line-height: 10px;
+    
+}
+/* type message */
+/* .write-msg {
+    margin-top: 10px;
+    height: 50px;
+    width: 800px;
+    border-radius: 10px;
+    background-color: gray;
+    border: none;
+
+} */
+.textarea {
+    background-color: #dddddd;
+    color: #666666;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    outline: none;
+    font-family: Roboto, Arial;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.4;
+    width: 850px;
+    height: 80px;
+    max-width: 10px;
+    max-height: 10px;
+    min-width: 850px;
+    min-height: 80px;
+    transition: all 0.2s;
+}
+.textarea:hover {
+    cursor: pointer;
+    background-color: #eeeeee;
+}
+.textarea:focus {
+    cursor:text;
+    background-color: #333333;
+    color: white;
+}
+button {
+    background-color: #eeeeee;
+    padding-top: 2px;
+    border: none;
+    border-radius: 10px;
+    transition: 0.15s;
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 5px;
+}
+button:hover {
+    background-color: blue;
+    color: white;
+}
+form {
+    display: flex;
+}
+
+/* notification */
+
+.message-icon {
+    position: relative;
+}
+.notification-icon {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.notification-button {
+    position: absolute;
+
+    background-color: red;
+    color: white;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+
+    border-radius: 25px;
+    font-size: 18px;
+
+   bottom: 100px;
+   right: 0px;
+
+}
+.notification-icon:hover .tooltip{
+    opacity: 1;
+}
+.notification {
+    height: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}

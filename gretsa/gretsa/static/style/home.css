@@ -1,0 +1,143 @@
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: top;
+    justify-content: space-between;
+}
+
+/* leftside section */
+.left-side {
+    display: flex;
+    flex-direction: row;
+}
+
+.logo-word {
+    margin-left: 10px;
+}
+
+/* middle section */
+.middle {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 200px;
+    position: relative;
+    width: 300px;
+    height: 42px;
+    border: solid 2px blue;
+    border-radius: 50px;
+    justify-content: space-between;
+    background-color: white;
+}
+.image-search {
+    height: 20px;
+    width: 20px;
+    margin-left:2px;
+}
+.search {
+    padding: 0 5px;
+}
+input {
+   font-size: 18px;
+   font-weight: 500;
+   border: none;
+
+}
+input:focus {
+    outline: none;
+}
+
+/* right section */
+
+.rightside {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.msg {
+    height: 50px;
+    cursor: pointer;
+}
+.message-icon {
+    position: relative;
+}
+.notification-icon {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.notification-button {
+    position: absolute;
+
+    background-color: red;
+    color: white;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+
+    border-radius: 25px;
+    font-size: 18px;
+
+   bottom: 100px;
+   right: 0px;
+
+}
+.notification-icon:hover .tooltip{
+    opacity: 1;
+}
+.notification {
+    height: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+
+}
+.avatar-icon {
+    height: 50px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.top-menu {
+    margin: 100px;
+    color: white;
+    background-color: green;
+    padding: 50px;
+    font-size: 20px;
+    font-weight: 800;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.departments {
+    margin-top: 10px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+    height: 500px;
+    border-radius: 20px;
+    display: flex;
+   
+    
+
+
+}
+.main-location-one {
+    margin-top: 10px;
+    height: 500px;
+    border-radius: 20px;
+    
+    
+}
+.department-stores {
+    background-color: green;
+    color: white;
+    padding: 50px;
+    width: 290px;
+    margin: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 20px;
+    transition: 0.15s;
+}
+.department-stores:hover {
+    background-color: blue;
+}
